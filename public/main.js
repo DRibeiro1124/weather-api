@@ -20,11 +20,14 @@ const weatherButton = () => {
         console.log('error', Response)
       }
     }).then(weatherResult => {
-      console.log('Search Results = ', weatherResult)
-      const parent = document.querySelector('.searchResults')
-      const newLi = document.createElement('li')
-      newLi.textContent = weatherResult.main.temp
-      parent.appendChild(newLi)
+      document.querySelector('.searchResults').textContent = weatherResult.main.temp + ' Fahrenheit'
+
+      // Since the project calls for one city I'm going with a span instead outputting New Li and appending child
+      // console.log('Search Results = ', weatherResult)
+      // const parent = document.querySelector('.searchResults')
+      // const newLi = document.createElement('li')
+      // newLi.textContent = weatherResult.main.temp
+      // parent.appendChild(newLi)
     })
 }
 
