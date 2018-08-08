@@ -6,8 +6,9 @@ body {
   margin: 0;
   min-height: 100%;
   font: 16px / 1 sans-serif;
-  background-image: url(./images/thunderstorm);
-  background-repeat: no-repeat;
+  background-image: url(./images/thunderstormgif.gif);
+  background-position: center;
+  background-size: 100%;
 }
 
 header {
