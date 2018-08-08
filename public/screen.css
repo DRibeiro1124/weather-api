@@ -25,12 +25,12 @@ header {
  }
 
  button {
-   color: red;
+   color: lightskyblue;
    size: 2em;
  }
 
  .input {
-   background-color:grey;
+   background-color: lightblue;
  }
 
  .searchResults {
