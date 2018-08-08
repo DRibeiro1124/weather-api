@@ -7,6 +7,7 @@ body {
   min-height: 100%;
   font: 16px / 1 sans-serif;
   background-image: url(./images/thunderstorm);
+  background-repeat: no-repeat;
 }
 
 header {

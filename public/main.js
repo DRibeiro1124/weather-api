@@ -2,8 +2,6 @@ const main = () => {
   // document.querySelector('h1').textContent += '?'
 }
 
-
-
 const weatherButton = () => {
   // console.log('Weather Button is being clicked')
   const userInput = document.querySelector('.input').value
@@ -20,7 +18,7 @@ const weatherButton = () => {
         console.log('error', Response)
       }
     }).then(weatherResult => {
-      document.querySelector('.searchResults').textContent = userInput + ' forecast right now is ' + weatherResult.main.temp + ' Fahrenheit'
+      document.querySelector('.searchResults').textContent = userInput + ' forecast right now is ' + weatherResult.main.temp + '° Fahrenheit'
       console.log('Search Results = ', weatherResult)
 
       // Since the project calls for one city I'm going with a span instead outputting New Li and appending child
